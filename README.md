@@ -18,5 +18,7 @@ The scaling of inputs and outputs of the network is summarized as follows:
 
 Nevertheless, the PINN needed additional sampling points near source region to initiate the source accurately. The results obtained are attached in this repository.
 
+The parametric PINN implementation is working fine with only one damage parameter. Additional damage parameters should be added into the network to check the training capability of the model. Currently working with 2 damage parameters (2 pairs of damage location).
+
 
 
